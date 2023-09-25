@@ -1,0 +1,85 @@
+.menu-bar__container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 999;
+  background-color: #ffff;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0px  0px 6px 0px rgba(0, 0 ,0,0.5);
+}
+.menu-bar__logo{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-bar__item{
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar__item > ul{
+  display: flex;
+
+  list-style-type: none;
+}
+
+.menu-bar__item > ul > li{
+  padding: 5px;
+  margin-right: 15px;
+
+}
+
+
+.menu-bar__item > ul > li> a{
+  text-decoration: none;
+
+  font-family: 'Segoe UI';
+  padding: 5px;
+}
+
+.menu-bar__item > ul > li> a:hover{
+  font-weight: 600;
+}
+
+.ytb{
+  background-color: red;
+  border-radius: 4px;
+  color:white;
+}
+.ytb > img{
+  width: 20px;
+  vertical-align: sub;
+  margin-right: 1px;
+}
+
+.lkd{
+  background-color: rgb(77, 77, 245);
+  border-radius: 4px;
+  color: black;
+}
+.lkd > img{
+  width: 18px;
+  vertical-align: sub;
+  margin-right: 1px;
+}
+
+.git{
+  background-color: rgb(206, 199, 199);
+  border-radius: 4px;
+  color: white;
+}
+
+.git > img{
+  width: 18px;
+  vertical-align: sub;
+  margin-right: 1px;
+}
+
+.home{
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px;
+  border-radius: 4px;
+}
